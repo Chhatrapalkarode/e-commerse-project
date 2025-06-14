@@ -1,0 +1,118 @@
+/* MainPage.css */
+
+/* General App Container */
+.App1 {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #45a049;
+    color: #fff;
+  }
+  
+  .nav-separator {
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  
+  /* Container for the main content */
+  .App1 .content {
+    margin-top: 60px; /* To offset the fixed navbar */
+    padding: 20px;
+    width: 80%;
+    max-width: 1200px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+  
+  /* Route Component Styling */
+  .AdminMain, .CustomerMain, .VenderMain {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .AdminMain h1, .CustomerMain h1, .VenderMain h1 {
+    font-size: 32px;
+    color: #333;
+  }
+  
+  .AdminMain p, .CustomerMain p, .VenderMain p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* Form styling for registration & login pages */
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .form-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .form-container a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 14px;
+  }
+  
+  .form-container a:hover {
+    text-decoration: underline;
+  }
+  
